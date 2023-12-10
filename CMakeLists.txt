@@ -1,0 +1,12 @@
+PROJECT(Example)
+
+SET(CMAKE_CXX_FLAGS "-g -Wall -Werror -std=c++20")
+
+find_package(Protobuf REQUIRED)
+
+ADD_SUBDIRECTORY(proto)
+
+INCLUDE_DIRECTORIES(${CMAKE_CURRENT_BINARY_DIR})
+INCLUDE_DIRECTORIES(${Protobuf_INCLUDE_DIRS})
+ADD_EXECUTABLE(main src/main.cpp)
+TARGET_LINK_LIBRARIES(main proto ${Protobuf_LIBRARIES})

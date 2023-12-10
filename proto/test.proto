@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+message Animal {
+  string species = 1;
+  string name = 2;
+  int32 age = 3;
+}
+
+message Stoune {
+  string almaz = 1;
+  string granit = 2;
+  int32 fuflit = 3;
+}
+
+enum Fields {
+  ANIMAL = 0;
+  STOUNE = 1;
+  CHEBUREK = 2;
+}
+
+
+message Context {
+  int32 txn = 1;
+  repeated bytes data = 2;
+}

@@ -1,0 +1,6 @@
+/home/ivan/projects/proto_example/build/CMakeFiles/main.dir
+/home/ivan/projects/proto_example/build/CMakeFiles/edit_cache.dir
+/home/ivan/projects/proto_example/build/CMakeFiles/rebuild_cache.dir
+/home/ivan/projects/proto_example/build/proto/CMakeFiles/proto.dir
+/home/ivan/projects/proto_example/build/proto/CMakeFiles/edit_cache.dir
+/home/ivan/projects/proto_example/build/proto/CMakeFiles/rebuild_cache.dir

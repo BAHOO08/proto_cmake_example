@@ -1,0 +1,9 @@
+# ninja log v5
+3	17	1702054684937933274	proto/test.pb.h	bd126fdcbec0b3c5
+3	17	1702054684937933274	proto/test.pb.cc	bd126fdcbec0b3c5
+3683	3848	1702054688757993926	proto/libproto.a	fb352fe5e06e948e
+2371	2553	1702055503952675465	main	1ce48d10f88e29de
+3	17	1702054684937933274	/home/ivan/projects/proto_example/build/proto/test.pb.h	bd126fdcbec0b3c5
+3	17	1702054684937933274	/home/ivan/projects/proto_example/build/proto/test.pb.cc	bd126fdcbec0b3c5
+3	2371	1702055503768689199	CMakeFiles/main.dir/src/main.o	d447c65767cd9042
+18	3683	1702054688601991446	proto/CMakeFiles/proto.dir/test.pb.o	4d63dc2188d92a26
